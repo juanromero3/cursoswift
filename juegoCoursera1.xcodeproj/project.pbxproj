@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F35638B71C7CFD2D009CA942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35638B61C7CFD2D009CA942 /* AppDelegate.swift */; };
+		F35638B91C7CFD2D009CA942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35638B81C7CFD2D009CA942 /* ViewController.swift */; };
+		F35638BC1C7CFD2D009CA942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35638BA1C7CFD2D009CA942 /* Main.storyboard */; };
+		F35638BE1C7CFD2D009CA942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35638BD1C7CFD2D009CA942 /* Assets.xcassets */; };
+		F35638C11C7CFD2D009CA942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35638BF1C7CFD2D009CA942 /* LaunchScreen.storyboard */; };
+		F35638CC1C7CFD2D009CA942 /* juegoCoursera1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35638CB1C7CFD2D009CA942 /* juegoCoursera1Tests.swift */; };
+		F35638D71C7CFD2D009CA942 /* juegoCoursera1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35638D61C7CFD2D009CA942 /* juegoCoursera1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F35638C81C7CFD2D009CA942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35638AB1C7CFD2C009CA942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35638B21C7CFD2C009CA942;
+			remoteInfo = juegoCoursera1;
+		};
+		F35638D31C7CFD2D009CA942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35638AB1C7CFD2C009CA942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35638B21C7CFD2C009CA942;
+			remoteInfo = juegoCoursera1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F35638B31C7CFD2D009CA942 /* juegoCoursera1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juegoCoursera1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35638B61C7CFD2D009CA942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F35638B81C7CFD2D009CA942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F35638BB1C7CFD2D009CA942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F35638BD1C7CFD2D009CA942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F35638C01C7CFD2D009CA942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F35638C21C7CFD2D009CA942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35638C71C7CFD2D009CA942 /* juegoCoursera1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juegoCoursera1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35638CB1C7CFD2D009CA942 /* juegoCoursera1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juegoCoursera1Tests.swift; sourceTree = "<group>"; };
+		F35638CD1C7CFD2D009CA942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35638D21C7CFD2D009CA942 /* juegoCoursera1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juegoCoursera1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35638D61C7CFD2D009CA942 /* juegoCoursera1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juegoCoursera1UITests.swift; sourceTree = "<group>"; };
+		F35638D81C7CFD2D009CA942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F35638B01C7CFD2C009CA942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35638C41C7CFD2D009CA942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35638CF1C7CFD2D009CA942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F35638AA1C7CFD2C009CA942 = {
+			isa = PBXGroup;
+			children = (
+				F35638B51C7CFD2D009CA942 /* juegoCoursera1 */,
+				F35638CA1C7CFD2D009CA942 /* juegoCoursera1Tests */,
+				F35638D51C7CFD2D009CA942 /* juegoCoursera1UITests */,
+				F35638B41C7CFD2D009CA942 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F35638B41C7CFD2D009CA942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35638B31C7CFD2D009CA942 /* juegoCoursera1.app */,
+				F35638C71C7CFD2D009CA942 /* juegoCoursera1Tests.xctest */,
+				F35638D21C7CFD2D009CA942 /* juegoCoursera1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35638B51C7CFD2D009CA942 /* juegoCoursera1 */ = {
+			isa = PBXGroup;
+			children = (
+				F35638B61C7CFD2D009CA942 /* AppDelegate.swift */,
+				F35638B81C7CFD2D009CA942 /* ViewController.swift */,
+				F35638BA1C7CFD2D009CA942 /* Main.storyboard */,
+				F35638BD1C7CFD2D009CA942 /* Assets.xcassets */,
+				F35638BF1C7CFD2D009CA942 /* LaunchScreen.storyboard */,
+				F35638C21C7CFD2D009CA942 /* Info.plist */,
+			);
+			path = juegoCoursera1;
+			sourceTree = "<group>";
+		};
+		F35638CA1C7CFD2D009CA942 /* juegoCoursera1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F35638CB1C7CFD2D009CA942 /* juegoCoursera1Tests.swift */,
+				F35638CD1C7CFD2D009CA942 /* Info.plist */,
+			);
+			path = juegoCoursera1Tests;
+			sourceTree = "<group>";
+		};
+		F35638D51C7CFD2D009CA942 /* juegoCoursera1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F35638D61C7CFD2D009CA942 /* juegoCoursera1UITests.swift */,
+				F35638D81C7CFD2D009CA942 /* Info.plist */,
+			);
+			path = juegoCoursera1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F35638B21C7CFD2C009CA942 /* juegoCoursera1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35638DB1C7CFD2D009CA942 /* Build configuration list for PBXNativeTarget "juegoCoursera1" */;
+			buildPhases = (
+				F35638AF1C7CFD2C009CA942 /* Sources */,
+				F35638B01C7CFD2C009CA942 /* Frameworks */,
+				F35638B11C7CFD2C009CA942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = juegoCoursera1;
+			productName = juegoCoursera1;
+			productReference = F35638B31C7CFD2D009CA942 /* juegoCoursera1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F35638C61C7CFD2D009CA942 /* juegoCoursera1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35638DE1C7CFD2D009CA942 /* Build configuration list for PBXNativeTarget "juegoCoursera1Tests" */;
+			buildPhases = (
+				F35638C31C7CFD2D009CA942 /* Sources */,
+				F35638C41C7CFD2D009CA942 /* Frameworks */,
+				F35638C51C7CFD2D009CA942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35638C91C7CFD2D009CA942 /* PBXTargetDependency */,
+			);
+			name = juegoCoursera1Tests;
+			productName = juegoCoursera1Tests;
+			productReference = F35638C71C7CFD2D009CA942 /* juegoCoursera1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F35638D11C7CFD2D009CA942 /* juegoCoursera1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35638E11C7CFD2D009CA942 /* Build configuration list for PBXNativeTarget "juegoCoursera1UITests" */;
+			buildPhases = (
+				F35638CE1C7CFD2D009CA942 /* Sources */,
+				F35638CF1C7CFD2D009CA942 /* Frameworks */,
+				F35638D01C7CFD2D009CA942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35638D41C7CFD2D009CA942 /* PBXTargetDependency */,
+			);
+			name = juegoCoursera1UITests;
+			productName = juegoCoursera1UITests;
+			productReference = F35638D21C7CFD2D009CA942 /* juegoCoursera1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F35638AB1C7CFD2C009CA942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Juan Romero";
+				TargetAttributes = {
+					F35638B21C7CFD2C009CA942 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F35638C61C7CFD2D009CA942 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F35638B21C7CFD2C009CA942;
+					};
+					F35638D11C7CFD2D009CA942 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F35638B21C7CFD2C009CA942;
+					};
+				};
+			};
+			buildConfigurationList = F35638AE1C7CFD2C009CA942 /* Build configuration list for PBXProject "juegoCoursera1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F35638AA1C7CFD2C009CA942;
+			productRefGroup = F35638B41C7CFD2D009CA942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F35638B21C7CFD2C009CA942 /* juegoCoursera1 */,
+				F35638C61C7CFD2D009CA942 /* juegoCoursera1Tests */,
+				F35638D11C7CFD2D009CA942 /* juegoCoursera1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F35638B11C7CFD2C009CA942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35638C11C7CFD2D009CA942 /* LaunchScreen.storyboard in Resources */,
+				F35638BE1C7CFD2D009CA942 /* Assets.xcassets in Resources */,
+				F35638BC1C7CFD2D009CA942 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35638C51C7CFD2D009CA942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35638D01C7CFD2D009CA942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F35638AF1C7CFD2C009CA942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35638B91C7CFD2D009CA942 /* ViewController.swift in Sources */,
+				F35638B71C7CFD2D009CA942 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35638C31C7CFD2D009CA942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35638CC1C7CFD2D009CA942 /* juegoCoursera1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35638CE1C7CFD2D009CA942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35638D71C7CFD2D009CA942 /* juegoCoursera1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F35638C91C7CFD2D009CA942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35638B21C7CFD2C009CA942 /* juegoCoursera1 */;
+			targetProxy = F35638C81C7CFD2D009CA942 /* PBXContainerItemProxy */;
+		};
+		F35638D41C7CFD2D009CA942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35638B21C7CFD2C009CA942 /* juegoCoursera1 */;
+			targetProxy = F35638D31C7CFD2D009CA942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F35638BA1C7CFD2D009CA942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35638BB1C7CFD2D009CA942 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F35638BF1C7CFD2D009CA942 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35638C01C7CFD2D009CA942 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F35638D91C7CFD2D009CA942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F35638DA1C7CFD2D009CA942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F35638DC1C7CFD2D009CA942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = juegoCoursera1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Romero.juegoCoursera1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F35638DD1C7CFD2D009CA942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = juegoCoursera1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Romero.juegoCoursera1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F35638DF1C7CFD2D009CA942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = juegoCoursera1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Romero.juegoCoursera1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/juegoCoursera1.app/juegoCoursera1";
+			};
+			name = Debug;
+		};
+		F35638E01C7CFD2D009CA942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = juegoCoursera1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Romero.juegoCoursera1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/juegoCoursera1.app/juegoCoursera1";
+			};
+			name = Release;
+		};
+		F35638E21C7CFD2D009CA942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = juegoCoursera1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Romero.juegoCoursera1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = juegoCoursera1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F35638E31C7CFD2D009CA942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = juegoCoursera1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Romero.juegoCoursera1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = juegoCoursera1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F35638AE1C7CFD2C009CA942 /* Build configuration list for PBXProject "juegoCoursera1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35638D91C7CFD2D009CA942 /* Debug */,
+				F35638DA1C7CFD2D009CA942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35638DB1C7CFD2D009CA942 /* Build configuration list for PBXNativeTarget "juegoCoursera1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35638DC1C7CFD2D009CA942 /* Debug */,
+				F35638DD1C7CFD2D009CA942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F35638DE1C7CFD2D009CA942 /* Build configuration list for PBXNativeTarget "juegoCoursera1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35638DF1C7CFD2D009CA942 /* Debug */,
+				F35638E01C7CFD2D009CA942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F35638E11C7CFD2D009CA942 /* Build configuration list for PBXNativeTarget "juegoCoursera1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35638E21C7CFD2D009CA942 /* Debug */,
+				F35638E31C7CFD2D009CA942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F35638AB1C7CFD2C009CA942 /* Project object */;
+}
