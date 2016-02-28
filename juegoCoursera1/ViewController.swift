@@ -6,31 +6,31 @@
 //  Copyright © 2016 Juan Romero. All rights reserved.
 //
 
+//Trabajo realizado por Juan Romero
+
+
 import UIKit
 
-var números = 0...100
+var numero = 0...100
 
-for núm in números { {
-    
-    print("núm")
-    }
-    
-    
-    if núm % 5 = 0{
+for num in numero {
+    //si está entre 30 y 40. 
+    // No se puede poner primero par o impar porque se "come" los demás resultados.
+    if num >= 30 && num <= 40 {
         
-        print("#número" + "Bingo!!!")
+        print("\(index) Viva Swift!!!")
+      // si es divisible por 5 que ponga Bingo
+    }else if num % 5 == 0 {
         
-    }else if núm % 2 = 0{
+        print("\(num) Bingo!!!")
+        // Si es par = PAR
+    } else if num % 2 == 0 {
         
-        print("#número" + "par!!!")
+        print("\(num) Par!!!")
+       //Si es impar= IMPAR (impar = 1)
+    } else if num % 2 != 0 {
         
-    }else if num % 2 = 1{
-        
-        print("#número" + "impar!!!")
-        
-    }else if núm > 30 && núm < 40{
-        
-        print("#número" + "Viva Swift!!!")
+        print("\(num) Impar!!!")
     }
 }
 
